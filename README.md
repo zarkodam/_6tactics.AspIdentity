@@ -3,9 +3,9 @@
 
 *note: for localized display name attributes I strongly recommend to move view models in web(main) project.*
 
-## Added new functionalities: ##
+### Added new functionalities: ######
 
-### Managing users includes (UserAdministrationController): ######
+###### Managing users includes (UserAdministrationController):
  - create
    - create and activate account with user name, email, password and adding user to groups
    - create and activate account  with user name, email as well as adding user to groups, but user gets email to create his password
@@ -27,20 +27,20 @@
 *note: users with administrator role can make changes*
 
 
-## Changed / extended functionalities: ##
+### Changed / extended functionalities: ######
 
-### Login view (AccountController): ######
+###### Login view (AccountController):
  - starts with username not email
  - "Forgot your password?" sends email to user with confirmation link for changing password 
 
-### Register view (AccountController): ######
+###### Register view (AccountController): 
  - after registration user gets email to confirm his registration
 
-### Index view (ManageController): ######
+###### Index view (ManageController):
  - added email update so that user can change his current email
 
 
-## Also check in AspIdentityExample(main web project): ##
+### Also check in AspIdentityExample(main web project): ######
  - Startup.cs
  - email setting example in web.config 
  - App_Readme/migrationReadme.txt
