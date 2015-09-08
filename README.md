@@ -1,7 +1,7 @@
 # _6tactics.AspIdentity
 _6tactics.AspIdentity separates, configures and extends asp.net identity 2 functionality in another project that can be used in any asp.net app.
 
-note: for localized display name attributes I strongly recommend to move view models in web(main) project.
+*note: for localized display name attributes I strongly recommend to move view models in web(main) project.*
 
 ## Added new functionalities: ##
 
@@ -24,7 +24,7 @@ note: for localized display name attributes I strongly recommend to move view mo
    - delete role
 
 
-note: users with administrator role can make changes
+*note: users with administrator role can make changes*
 
 
 ## Changed / extended functionalities: ##
