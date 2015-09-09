@@ -15,7 +15,7 @@
    - delete user account
  - only administrator can make changes
 
-### Maniging roles includes (RolesAdministrationController): ######
+###### Maniging roles includes (RolesAdministrationController): 
  - create
    - create role
  - edit
